@@ -1,0 +1,83 @@
+.star-rating {
+    display: flex;
+    direction: row-reverse;
+    font-size: 20px;
+    cursor: pointer;
+}
+.star-rating input {
+    display: none;
+}
+.star-rating label {
+    color: #f5b301;
+}
+section{
+    background-color: #e7e5e5;
+    padding: 20px 0;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    background-color:rgb(204, 202, 202);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.circle i{
+    font-size: 20px;
+    color: gray;
+}
+.card-title{
+font-weight: bold;  
+margin-bottom: 10px;
+
+}
+.reviews{
+    color: gray;
+    font-weight: 600;
+}
+.card-body .smallCard{
+background-color:rgb(204, 202, 202);
+color: gray;
+font-weight: 600;
+padding: 7px 0;
+
+
+
+}
+.students{
+    border-left: 1px solid gray;
+    padding-left: 7px;
+}
+.lessons{
+    padding-right: 7px;
+}
+.card-text{
+    color: gray;
+    padding: 10px 0;
+    font-size: 18px;
+}
+.footerCard img{
+    border-radius: 50%;
+
+}
+.footerCard .footerText{
+    font-size: 20px;
+    font-weight: 600;
+}
+.footerCard .footerText span{
+    color: gray;
+}
+.card .card-body .Salary{
+    color: gray;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+.card .card-body .Salary span{
+    color: rgb(175, 44, 66);
+    text-decoration: line-through;
+    padding:0 3px;
+    
+}
